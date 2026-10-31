@@ -1,0 +1,5 @@
+build/
+ch3
+ch3.exe
+*.obj
+*.o
