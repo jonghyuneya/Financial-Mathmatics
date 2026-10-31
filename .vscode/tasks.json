@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C++ Chapter 3",
+      "type": "process",
+      "command": "g++",
+      "args": ["-std=c++17", "-O2", "-Wall", "-Wextra", "main.cpp", "-o", "ch3"],
+      "windows": {"args": ["-std=c++17", "-O2", "-Wall", "-Wextra", "main.cpp", "-o", "ch3.exe"]},
+      "options": {"cwd": "${workspaceFolder}"},
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Run C++ Chapter 3",
+      "type": "process",
+      "command": "${workspaceFolder}/ch3",
+      "windows": {"command": "${workspaceFolder}/ch3.exe"},
+      "args": ["data", "results"],
+      "dependsOn": "Build C++ Chapter 3",
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    }
+  ]
+}
