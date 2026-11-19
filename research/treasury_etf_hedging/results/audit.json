@@ -1,0 +1,70 @@
+{
+  "source_files": {
+    "treasury_2022.csv": {
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2022/all?type=daily_treasury_yield_curve&field_tdr_date_value=2022&page&_format=csv",
+      "sha256": "c33cb2758e5e34c2c23b7ab759d18681091860f3f9e5960112859f64f31cd814"
+    },
+    "treasury_2023.csv": {
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2023/all?type=daily_treasury_yield_curve&field_tdr_date_value=2023&page&_format=csv",
+      "sha256": "edb7f3904e11dcaa502cdcc03ad9b1b16c893802d166ce9bc5fa1118251249d4"
+    },
+    "treasury_2024.csv": {
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2024/all?type=daily_treasury_yield_curve&field_tdr_date_value=2024&page&_format=csv",
+      "sha256": "6775840b76cd7fd41121f61d6f6c60184eca6b2ba49954ec7372c463cbeef34d"
+    },
+    "treasury_2025.csv": {
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2025/all?type=daily_treasury_yield_curve&field_tdr_date_value=2025&page&_format=csv",
+      "sha256": "cf2fa3da7f160384b63d2ead698532b1d76cd9f789ce4911e2304db85b14e6d5"
+    },
+    "IEF.json": {
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/IEF?period1=1640995200&period2=1767225600&interval=1d&events=div%2Csplits",
+      "sha256": "79f647edc8ed70517fa6f3e76a151023d3cc6463e2c59682161e68f8a8fe2b90"
+    },
+    "TLT.json": {
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/TLT?period1=1640995200&period2=1767225600&interval=1d&events=div%2Csplits",
+      "sha256": "2e6de82676d10dd77af5e89cee0e034844311f34bdd19d1d4a7710aa2977db84"
+    },
+    "IEF-nasdaq.json": {
+      "url": "https://api.nasdaq.com/api/quote/IEF/historical?assetclass=etf&fromdate=2022-01-01&todate=2025-12-31&limit=1500",
+      "sha256": "f79ed501568ebcdc661e3dfc274e170b842683d1e10a73eebe8f585d23c8f871"
+    },
+    "IEF-dividends.json": {
+      "url": "https://api.nasdaq.com/api/quote/IEF/dividends?assetclass=etf",
+      "sha256": "123ebbf09f0945f7029ef0ca8dae84d39e2995694a0ee027d87560f3230da5d0"
+    },
+    "TLT-nasdaq.json": {
+      "url": "https://api.nasdaq.com/api/quote/TLT/historical?assetclass=etf&fromdate=2022-01-01&todate=2025-12-31&limit=1500",
+      "sha256": "5448bbbb9133c0dcbfebe33913bdc133e5aca98134e697fbc2132d8ae2e6e7ef"
+    },
+    "TLT-dividends.json": {
+      "url": "https://api.nasdaq.com/api/quote/TLT/dividends?assetclass=etf",
+      "sha256": "376e9a6f8c6e85d0246cb3a3a46d4ae0e46a6da80604c2212b034234e6d0f99d"
+    }
+  },
+  "curve_count": 998,
+  "example_date": "2025-12-31",
+  "median_par_rmse_bp": 1.5309497172981998,
+  "median_zero_rmse_bp": 0.6740873129119209,
+  "min_discount": 0.21415203443810585,
+  "negative_forward_dates": 0,
+  "median_forward_turns": 4.0,
+  "forward_sensitivity_bp": {
+    "0.25": 1.6741198517922218,
+    "1": 0.0,
+    "4": 3.231397763320196
+  },
+  "hw_max_discount_error": 3.0531133177191805e-16,
+  "riccati_a_error": 2.2610898396668855e-11,
+  "distribution_counts": {
+    "IEF": 48,
+    "TLT": 48
+  },
+  "max_adjusted_return_gap_bp": {
+    "IEF": 0.562356290051665,
+    "TLT": 0.8847305408671291
+  },
+  "max_close_gap_dollars": {
+    "IEF": 0.005001220703121589,
+    "TLT": 0.005003356933599434
+  }
+}

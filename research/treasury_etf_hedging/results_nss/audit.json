@@ -1,0 +1,14 @@
+{
+  "example_discount_reconstruction_max_error": 5.551115123125783e-17,
+  "curve_dates": 998,
+  "evaluation_dates": 941,
+  "baseline_files": {
+    "curve_diagnostics.csv": "9aa4b2a22b0a8d0d4ceff0c7c335b73dcadd9c057265c406f0a255bffaf361c7",
+    "daily.csv": "b138d744e07fa1b378c95770db800dc1f79d32d6a3e5ebbc81df0518db286b7b",
+    "example_curve.csv": "48f201d9e15836ca259fc6fe1c979cc8d8096525d9968cf2e02a64a9afe39080",
+    "market.csv": "76eda2d17da362635c8ad98ce519db5f04648001dc162e155c7ae684a17ec324",
+    "objective_comparison.csv": "4ee711a349a6cc5ceec0b7f0493a5058a9ad9c441246286a2542b80b4c4e42d0",
+    "paired_risk_intervals.csv": "42ef39de0b768ece93c933fed370b7a912fd3f38d37768a5f024fd7d1ebfff35",
+    "summary.csv": "0da50d93609b1f10791a04613543ff0dfae937dd26abcc66129ec572f9a0b97b"
+  }
+}
